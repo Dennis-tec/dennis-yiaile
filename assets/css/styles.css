@@ -456,3 +456,8 @@ img{
   grid-template-columns: 100%;
   height: 250px;
 }
+.number h5{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 17px;
+}
