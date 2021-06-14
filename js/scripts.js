@@ -10,7 +10,7 @@ $("document").ready(function(){
   } else if (!name) {
     alert("Enter your name!")
   } else {
-      alert(name+ ", I have receive your information. I will get back to you in a few!");
+      alert(name+ ", Your details have been send to Dennis Yiaile. In case of any questions or concerns, I will get back to you ASAP!");
   }
   })
   })
