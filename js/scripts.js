@@ -5,7 +5,7 @@ $("document").ready(function(){
     var message=$("#message").val();
     if (!name && !email) {
     alert("Enter your contact details!");
-    $("#message").val("");
+    $(message).val("");
     return false;
   }else if (!email) {
     alert(name +", enter your email!");
