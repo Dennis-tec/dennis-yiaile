@@ -27,6 +27,7 @@ $("document").ready(function(){
              + "&body=" + encodeURIComponent(document.getElementById('message').value);
 
     window.location.href = link;
+  }
 //Email.send({
 //SecureToken : "dfa0c644-fb01-4096-865a-368f825535e3",
 //To : 'ykamakei6345@gmail.com',
