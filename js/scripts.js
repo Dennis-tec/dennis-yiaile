@@ -20,3 +20,11 @@ $("document").ready(function(){
       }
   })
   })
+  function sendMail() {
+    var link = "mailto:ykamakei6345@gmail.com"
+             + "?cc=ykamakei6345@gmail.com"
+             + "&subject=" + encodeURIComponent("This is my subject")
+             + "&body=" + encodeURIComponent(document.getElementById('message').value);
+
+    window.location.href = link;
+}
