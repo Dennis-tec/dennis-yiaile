@@ -14,7 +14,7 @@ $("document").ready(function(){
     alert("Enter your name!")
     return false;
   }else {
-      alert(name+ ", Your details have been send to Dennis Yiaile. In case of any questions or concerns, I will get back to you ASAP!");
+      alert(name+ ", your information have been send to Dennis Yiaile. In case of any questions or concerns, I will get back to you ASAP!");
   }
   })
   })
