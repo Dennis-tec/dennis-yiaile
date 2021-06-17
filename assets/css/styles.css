@@ -316,6 +316,8 @@ img{
 .work__img img{
   transition: 1s;
   cursor: pointer;
+  margin-top: 30px;
+
 }
 .work__img img:hover{
   transform: scale(1.1);

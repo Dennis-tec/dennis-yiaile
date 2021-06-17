@@ -21,18 +21,7 @@ $("document").ready(function(){
   })
   })
   function sendMail() {
-    var link = "index.html#contact"
+    var link = "https://dennis-tec.github.io/dennis-yiaile/#contact"
 
     window.location.href = link;
   }
-//Email.send({
-//SecureToken : "dfa0c644-fb01-4096-865a-368f825535e3",
-//To : 'ykamakei6345@gmail.com',
-//From : "ykamakei6345@gmail.com",
-//Subject: "Sending Email using javascript with SMTPJS",
-//Body: document.getElementById('message').value,
-//})
-//.then(function (message) {
-//alert("Mail has been sent successfully")
-//});
-//}
