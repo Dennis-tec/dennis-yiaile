@@ -21,10 +21,7 @@ $("document").ready(function(){
   })
   })
   function sendMail() {
-    var link = "mailto:denno6345@gmail.com"
-             + "?cc=denno6345@gmail.com"
-             + "&subject=" + encodeURIComponent("This is my subject")
-             + "&body=" + encodeURIComponent(document.getElementById('message').value);
+    var link = "index.html#contact"
 
     window.location.href = link;
   }
