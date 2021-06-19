@@ -20,8 +20,7 @@ $("document").ready(function(){
       }
   })
   })
-//  function sendMail() {
-  //  var link = "action.php"
+function sendMail() {
 
-    //window.location.href = link;
-  //}
+    window.location.href = link;
+}
