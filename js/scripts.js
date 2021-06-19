@@ -20,8 +20,8 @@ $("document").ready(function(){
       }
   })
   })
-  function sendMail() {
-    var link = "https://dennis-tec.github.io/dennis-yiaile/#contact"
+//  function sendMail() {
+  //  var link = "action.php"
 
-    window.location.href = link;
-  }
+    //window.location.href = link;
+  //}
