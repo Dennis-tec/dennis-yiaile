@@ -17,10 +17,14 @@ $("document").ready(function(){
   }else {
     confirm(name + ", your details will be send to Dennis Yiaile.");
     alert(name+ ", your information have been send to Dennis Yiaile. In case of any questions or concerns, I will get back to you ASAP!");
+    name.val = " ";
+    email.val = " ";
+    message.val = " ";
+
       }
   })
   })
-function sendMail() {
-
-    window.location.href = link;
-}
+//clearing output
+//var myname =document.getElementById('name').value();
+//var myemail =document.getElementById('email').value();
+//var mymessage =document.getElementById('message').value();
