@@ -292,13 +292,19 @@ img{
   width: 95%;
 }
 .skills__css{
-  width: 85%;
+  width: 91%;
 }
 .skills__js{
-  width: 65%;
+  width: 75%;
 }
 .skills__ux{
-  width: 85%;
+  width: 40%;
+}
+.skills__py{
+  width: 90%;
+}
+.skills__php{
+  width: 55%;
 }
 .skills__img{
   border-radius: .5rem;
