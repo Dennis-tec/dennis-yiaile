@@ -295,13 +295,16 @@ img{
   width: 91%;
 }
 .skills__js{
-  width: 75%;
+  width: 90%;
 }
 .skills__ux{
   width: 50%;
 }
 .skills__py{
-  width: 90%;
+  width: 95%;
+}
+.skills__dj{
+  width: 85
 }
 .skills__php{
   width: 65%;
