@@ -199,18 +199,24 @@ img{
 .home{
   height: calc(100vh - 3rem);
   row-gap: 1rem;
+  background-image: url('../img/hello_background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .home__data{
-  align-self: center;
+  text-align: center;
 }
 .home__title{
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  color: #fff;
 }
 .home__title-color{
   color: var(--first-color);
 }
 .home__social{
+  justify-content: center;
   display: flex;
   flex-direction: column;
 }
@@ -218,15 +224,12 @@ img{
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: #fff;
 }
 .home__social-icon:hover{
   color: var(--first-color);
 }
-.home__img{
-  position: absolute;
-  right: 0;
-}
+
 /*BUTTONS*/
 .button{
   display: inline-block;
@@ -243,17 +246,37 @@ img{
 /* ===== ABOUT =====*/
 .about__container{
   row-gap: 2rem;
-  text-align: center;
+  align-items: center;
 }
+
 .about__subtitle{
   margin-bottom: var(--mb-2);
 }
-.about__img{
-  justify-self: center;
+/* ===== EDUCATION =====*/
+.education{
+  row-gap: 2rem;
+  text-align: center;
 }
-.about__img img{
-  width: 200px;
-  border-radius: .5rem;
+
+/* ===== EXPERIENCE =====*/
+.experience_container{
+  align-items: center;
+}
+.microsoft, .haverford, .equity_bank{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+}
+
+.haverford, .equity_bank{
+  margin-top: 2rem;
+}
+.image-container {
+  border-bottom: 2px dotted lightgrey; 
+  display: block;
+  max-width: 100%;
 }
 
 /* ===== SKILLS =====*/
@@ -316,9 +339,6 @@ img{
 }
 .skills__php{
   width: 65%;
-}
-.skills__img{
-  border-radius: .5rem;
 }
 
 /* ===== WORK =====*/
@@ -437,18 +457,9 @@ img{
     margin-bottom: 0;
     margin-right: var(--mb-4);
   }
-  .home__img{
-    width: 457px;
-    bottom: 15%;
-  }
-
-  .about__container, .skills__container{
-    grid-template-columns: repeat(2,1fr);
+  .about__container, .education, .experience_container, .skills__container{
     align-items: center;
-    text-align: initial;
-  }
-  .about__img img{
-    width: 300px;
+    text-align: center;
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
