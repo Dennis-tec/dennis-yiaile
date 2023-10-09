@@ -57,6 +57,7 @@ body{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-image: url('../img/hello_background.jpg');
 }
 h1,h2,p{
   margin: 0;
@@ -98,6 +99,7 @@ img{
 .section{
   padding-top: 3rem;
   padding-bottom: 2rem;
+  background-color: #fff;
 }
 
 /*===== LAYOUT =====*/
@@ -199,10 +201,6 @@ img{
 .home{
   height: calc(100vh - 3rem);
   row-gap: 1rem;
-  background-image: url('../img/hello_background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .home__data{
   text-align: center;
