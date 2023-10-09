@@ -58,6 +58,8 @@ body{
   font-size: var(--normal-font-size);
   color: var(--second-color);
   background-image: url('../img/hello_background.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 h1,h2,p{
   margin: 0;
@@ -447,7 +449,6 @@ img{
   }
   .home__social{
     padding-top: 0;
-    padding-bottom: 2.5rem;
     flex-direction: row;
     align-self: flex-end;
   }
