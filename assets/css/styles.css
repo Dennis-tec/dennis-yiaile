@@ -291,7 +291,7 @@ img{
   text-align: center;
 }
 .skills__subtitle{
-  margin-bottom: var(--mb-2);
+  margin-top: var(--mb-2);
 }
 .skills__data{
   justify-content: space-between;
