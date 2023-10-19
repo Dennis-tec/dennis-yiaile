@@ -11,8 +11,7 @@ $("document").ready(function(){
   } else if (!name) {
     alert("Enter your name!")
   }else {
-    confirm(name + ", your details will be send to Dennis Yiaile.");
-    alert(name+ ", your information have been send to Dennis Yiaile. In case of any questions or concerns, I will get back to you ASAP!");
+    confirm(name + ", your information will be recorded. Do you like to continue?");
     name.val = " ";
     email.val = " ";
     message.val = " ";
