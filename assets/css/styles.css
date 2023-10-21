@@ -152,7 +152,7 @@ img{
     transition: .5s;
   }
   .home__content img{
-    width: 300px;
+    width: 200px;
   }
 }
 .nav__item{
@@ -201,8 +201,7 @@ img{
 
 /*===== HOME =====*/
 .home{
-  height: (100vh - 3rem);
-  overflow: auto;
+  height: 100vh;
 }
 
 .home video {
