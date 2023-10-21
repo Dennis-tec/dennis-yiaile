@@ -31,7 +31,7 @@
                               <li class="nav__item"><a href="#experience" class="nav__link">Experiences</a></li>
                               <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
                               <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                              <li class="nav__item"><a href="https://docs.google.com/document/d/1lwU5P2QBWJifTX4iFF11dzSABlYAQ-po/edit?usp=sharing&ouid=107432406977535664751&rtpof=true&sd=true" class="nav__link">Resume</a></li>
+                              <li class="nav__item"><a href="assets/files/Recent_Resume_DKY.docx.pdf" class="nav__link">Resume</a></li>
                           </ul>
                       </div>
 
@@ -45,9 +45,12 @@
               <main class="l-main">
                 <!--===== HOME =====-->
                 <section class="home bd-grid"style = "" id="home">
+                  <video src="assets/img/home_background.mp4" autoplay loop muted></video>
                     <div class="home__data">
-                        <h1 class="home__title"><i style="font-family: 'Times New Roman', Times, serif;">Hi! I'm</i> <br> <span class="home__title-color">Dennis Yiaile</h1>
-
+                      <div class="home__content">
+                        <h1 class="home__title">Hi! I'm <br><span class="home__title-color">Dennis Yiaile</h1>
+                          <img src="assets/img/hello_image.jpg" class="home__img" alt="">
+                        </div>
                         <a href="#contact" class="button">Contact</a>
                     </div>
 
@@ -72,49 +75,68 @@
           <section class="education section " id="education">
               <h2 class="section-title">EDUCATION</h2>
             <div class="education_container bd-grid">
-              <h2>CourseWork</h2>
+              <div class="education_coursework">
+              <h3>CourseWork</h3>
               <p>Machine Learning, Data Science, Systems Programming, Data Structures and Algorithms, Principles of Programming Languages, Linear Programming, Linear Algebra, Multivariable Calculus</p>
-
+            </div>
+            <div class="education_institution">
               <h3>Institution - Haverford College</h3>
               <p><i>Haverford, PA, United States</i></p>
               <p>Bachelor of Science in Computer Science - Expected Graduation Date: December 2024</p>
+            </div>
             </div>
           </section>
 
                  <!--===== EXPERIENCE =====-->
         <section class="experience section " id="experience">
               <h2 class="section-title">WORK EXPERIENCE</h2>
-            <div class="experience bd-grid">
+            <div class="experience_container bd-grid">
               <div class="microsoft">
               <img src="assets/img/microsoft.png" style="width: 200px; height: 80px;" alt="" class="image-container">
-              <h4>Software Engineering Intern</h4>
+              
+              <h4 class="experience_subtitles">Software Engineering Intern</h4>
+              <span class="work_duty">
               <p style="font-family:'Times New Roman', Times, serif">May 2023 - Aug 2023 | Redmond, WA</p>
               <p>I leveraged C#, SQL, .Net Core, and Visual Studio Code to develop an automated billing model for Azure Usage Billing (AUB). This innovative billing solution significantly enhanced the efficiency of AUB's customer invoicing process, supplanting the previous labor-intensive and inefficient manual approach.</p>
-              <h4>Product Manager + Software Engineering(Explore) Intern</h4>
+            </span>
+
+            <h4 class="experience_subtitles">Product Manager + Software Engineering(Explore) Intern</h4>
+            <span class="work_duty">
               <p style="font-family:'Times New Roman', Times, serif">May 2022 - Aug 2022 | Redmond, WA</p>
               <p>I utilized the Kusto Query Language (KQL) and C# to design Power BI dashboards for the purpose of analyzing and visualizing the utilization of Azure services by customers. This implementation has proven instrumental in enabling the internal team to monitor and assess the progression of Azure service usage, effectively segregating services that contribute significantly to revenue from those that exhibit lower performance.</p>
+            </span>
             </div>
+            
             <div class="haverford">
               <img src="assets/img/haverford.png" style="width: 140px; height: 60px;" alt="" class="image-container">
-              <h4>IT Student Assistant</h4>
+
+            <h4 class="experience_subtitles">IT Student Specilaist</h4>
+            <span class="work_duty">
               <p style="font-family:'Times New Roman', Times, serif;">Sep 2023 - Present | Haverford, PA</p>
               <p>Provide technical expertise and support to troubleshoot and resolve various software-related issues.</p>
-              <h4>Employer Relations Student Assistant</h4>
+            </span>
+
+            <h4 class="experience_subtitles">Employer Relations Student Specilaist</h4>
+            <span class="work_duty">
               <p style="font-family: 'Times New Roman', Times, serif;">Sep 2021 - May 2023 | Haverford, PA</p>
               <ol>
                 <li>Diligently managed the Handshake application to make sure students got job notifications on time and stayed informed about upcoming program messages, which made their experience better.</li>
                 <li>Researched thoroughly and carefully selected career-related events, programs, and job opportunities for the students and staff at Haverford College, creating a stronger and more supportive environment for professional growth.</li>
               </ol>
+            </span>
             </div>
 
             <div class="equity_bank">
               <img src="assets/img/equity_bank.jpeg" style="width: 100px; height: 100px;" alt="" class="image-container">
-              <h4>Account Executive Intern</h4>
+              
+              <h4 class="experience_subtitles">Account Executive Intern</h4>
+              <span class="work_duty">
               <p style="font-family: 'Times New Roman', Times, serif">Feb 2019 - Jun 2019 | Narok, Kenya</p>
               <ol>
                 <li>Processed ATM debit cards for new customers using the Financial Software Application, contributing to a smooth and timely card activation process that enhanced the customer experience and ensured secure access to their financial resources.</li>
-                <li>Conducted over 100 daily reconciliations in the financial department using Microsoft Excel, facilitating the comparison of financial records and statements to identify discrepancies.</li>
+                <li>Conducted over 100 daily reconciliations for the financial department using Microsoft Excel, facilitating the comparison of financial records and statements to identify discrepancies.</li>
               </ol>
+            </span>
             </div>
             </div>
         </section>
@@ -161,7 +183,7 @@
           <div class="skills__container bd-grid">
                   <div class="skills__data">
                     <h2 class="skills__subtitle">Software Skills</h2>
-                    <h3><u>Programming Languages</u></h3>
+                    <h3 class="skills__text"><u>Programming Languages</u></h3>
                     <ul class="skills__items">
                       <li>Python</li>
                       <li>C#</li>
@@ -169,7 +191,7 @@
                       <li>Javascript</li>
                     </ul>
 
-                    <h3><u>Web Developments</u></h3>
+                    <h3 class="skills__text"><u>Web Developments</u></h3>
                     <ul class="skills__items">
                       <li>HTML</li>
                       <li>CSS</li>
@@ -177,7 +199,7 @@
                       <li>Node.js</li>
                     </ul>
 
-                    <h3><u>Frameworks & Tools</u></h3>
+                    <h3 class="skills__text"><u>Frameworks & Tools</u></h3>
                     <ul class="skills__items">
                       <li>.NET Core</li>
                       <li>Django</li>
@@ -188,7 +210,7 @@
                       <li>Jupyter Notebooks</li>
                     </ul>
 
-                    <h3><u>Database Management</u></h3>
+                    <h3 class="skills__text"><u>Database Management</u></h3>
                     <ul class="skills__items">
                       <li>SQL</li>
                       <li>Kusto Query Language(KQL)</li>

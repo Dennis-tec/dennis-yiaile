@@ -201,19 +201,40 @@ img{
   row-gap: 1rem;
   height: 100vh;
 }
+
+.home video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
 .home__data{
+  display: flex-end;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  align-self: flex-end;
+}
+
+.home__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+
+}
+
+.home__content img{
+  width: 400px;
+  border-radius: 0.2rem;
 }
 .home__title{
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
   color: #fff;
-  background-image: url('../img/hello_background.jpg'), url('../img/hello_background.jpg');
-  background-size: contain, cover;
-  background-repeat: no-repeat, no-repeat;
-  background-position: center, center;
-  background-attachment: fixed, fixed;
 }
 .home__title-color{
   row-gap: 1rem;
@@ -227,7 +248,7 @@ img{
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: #fff;
   margin-right: var(--mb-4);
 }
 .home__social-icon:hover{
@@ -249,8 +270,12 @@ img{
 
 /* ===== ABOUT =====*/
 .about__container{
-  row-gap: 2rem;
   align-items: center;
+  position: relative;
+  padding: .5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: .5rem;
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
 
 .about__subtitle{
@@ -258,13 +283,27 @@ img{
 }
 /* ===== EDUCATION =====*/
 .education{
-  row-gap: 2rem;
   text-align: center;
+}
+.education_container{
+  position: relative;
+  padding: .5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: .5rem;
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+.education_coursework h3, .education_institution h3{
+  margin-bottom: 0;
 }
 
 /* ===== EXPERIENCE =====*/
 .experience_container{
   align-items: center;
+  position: relative;
+  padding: .5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: .5rem;
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
 .microsoft, .haverford, .equity_bank{
   justify-content: center;
@@ -274,6 +313,7 @@ img{
   border: 1px solid lightgrey;
   text-align: center;
   row-gap: 1rem;
+  border-radius: 0.5rem;
 }
 
 .haverford, .equity_bank{

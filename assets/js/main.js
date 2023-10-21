@@ -40,15 +40,24 @@ sr.reveal('.home__img',{delay: 400});
 sr.reveal('.home__social-icon',{ interval: 200});
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img',{});
-sr.reveal('.about__subtitle',{delay: 400});
 sr.reveal('.about__text',{delay: 400});
+
+/*SCROLL EDUCATION*/
+sr.reveal('.education_coursework',{interval: 200});
+sr.reveal('.education_institution',{delay: 400});
+
+/*SCROLL EXPERIENCES*/
+sr.reveal('.microsoft',{interval: 200});
+sr.reveal('.haverford',{interval: 200});
+sr.reveal('.equity_bank',{interval: 200});
+sr.reveal('.experience_subtitles',{delay: 200});
+sr.reveal('.work_duty',{delay: 600});
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle',{});
-sr.reveal('.skills__text',{});
-sr.reveal('.skills__data',{interval: 200});
-sr.reveal('.skills__img',{delay: 600});
+sr.reveal('.skills__data',{interval: 400});
+sr.reveal('.skills__text',{delay: 600});
+sr.reveal('.skills__items',{delay: 600});
 
 /*SCROLL WORK*/
 sr.reveal('.work__img',{interval: 200});
